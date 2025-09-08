@@ -128,6 +128,12 @@ margin-top: 0.3rem ;
 font-style: italic !important;
 color: #666;
 }
+    .venue {
+  font-size: 0.9em;   /* slightly smaller than the main header */
+  color: #333;        /* dark enough to be readable */
+  margin-top: 0.2em;  /* a little spacing below the header */
+  text-align: center; /* centered under the header */
+}
 footer {
 text-align: center;
 font-size: 0.85rem;
@@ -140,8 +146,9 @@ border-top: 1px solid #ddd;
 </head>
 <body>
   <header>
-    <h1>ASE-EOS Conference Program<br>October 2-3, 2025</h1>
-  </header>
+  <h1>ASE-EOS Conference Program<br>October 2-3, 2025</h1>
+  <p class="venue">NTU@one-north, Buona Vista</p>
+</header>
   <nav>
     <button class="tab active" onclick="showDay(&#39;day1&#39;)">Day 1</button>
     <button class="tab" onclick="showDay(&#39;day2&#39;)">Day 2</button>
@@ -344,6 +351,7 @@ border-top: 1px solid #ddd;
   </script>
 </body>
 </html>
+
 
 
 
